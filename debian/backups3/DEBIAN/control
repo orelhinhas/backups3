@@ -1,0 +1,10 @@
+Package: backups3
+Version: 0.0.1-1
+Architecture: amd64
+Maintainer: Joao Gabriel <jglisanti@gmail.com>
+Installed-Size: 36
+Depends: s3cmd
+Section: misc
+Priority: extra
+Homepage: https://www.github.com/orelhinhas
+Description: compress and send to amazon s3

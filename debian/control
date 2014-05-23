@@ -1,0 +1,12 @@
+Source: backups3
+Section: misc
+Priority: extra
+Maintainer: Joao Gabriel <jglisanti@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://www.github.com/orelhinhas
+
+Package: backups3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, s3cmd
+Description: compress and send to amazon s3

@@ -1,0 +1,5 @@
+backups3 (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Joao Gabriel <jglisanti@gmail.com>  Fri, 23 May 2014 17:11:12 +0100

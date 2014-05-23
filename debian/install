@@ -1,0 +1,2 @@
+backup_s3.py usr/bin/
+backupS3.conf /etc/
