@@ -33,9 +33,10 @@ def compress(date, dest, files):
       shutil.move(files, dest)
       return files
     elif os.path.isdir(files):
-      compress = tarfile.open('%s/%s-%s.tar.bz2' % (dest, files, date), 'w:bz2')
+      compress = tarfile.open('%s-%s.tar.bz2' % (files, date), 'w:bz2')
       compress.add(files)
       compress.close()
+      shutil.move(compress.name, dest)
     else:
       print "file does'nt exist"
 
